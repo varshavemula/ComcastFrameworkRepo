@@ -25,6 +25,7 @@ public class HomePage {
 	
 	public WebElement getCampaignLink() {
 		return campaignLink;
+		
 	}
 
 	public WebElement getContactLink() {
