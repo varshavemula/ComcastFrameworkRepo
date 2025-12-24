@@ -19,6 +19,10 @@ public class HomePage {
 		return orgLink;
 	}
 	
+	public WebElement getProductLink() {
+		return productLink;
+	}
+	
 	public WebElement getCampaignLink() {
 		return campaignLink;
 	}
@@ -35,6 +39,9 @@ public class HomePage {
 	
 	@FindBy(linkText="Contacts")
 	private WebElement contactLink;
+	
+	@FindBy(linkText="Products")
+	private WebElement productLink;
 	
 	@FindBy(linkText="Campaigns")
 	private WebElement campaignLink;
