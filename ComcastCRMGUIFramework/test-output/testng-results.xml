@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-23T15:49:55 IST" name="Default suite" finished-at="2025-12-23T15:51:23 IST" duration-ms="88033">
+    <groups>
+      <group name="regressionTest">
+        <method signature="ContactModule.createContactWithOrgTest()[pri:0, instance:com.comcast.crm.contacttest.ContactModule@7dcf94f8]" name="createContactWithOrgTest" class="com.comcast.crm.contacttest.ContactModule"/>
+        <method signature="ContactModule.createContactWithSupportDate()[pri:0, instance:com.comcast.crm.contacttest.ContactModule@7dcf94f8]" name="createContactWithSupportDate" class="com.comcast.crm.contacttest.ContactModule"/>
+      </group> <!-- regressionTest -->
+      <group name="smokeTest">
+        <method signature="ContactModule.createContact()[pri:0, instance:com.comcast.crm.contacttest.ContactModule@7dcf94f8]" name="createContact" class="com.comcast.crm.contacttest.ContactModule"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test started-at="2025-12-23T15:49:55 IST" name="Default test" finished-at="2025-12-23T15:51:23 IST" duration-ms="88033">
+      <class name="com.comcast.crm.contacttest.ContactModule">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.comcast.crm.contacttest.ContactModule@7dcf94f8]" started-at="2025-12-23T15:49:54 IST" name="beforeSuite" finished-at="2025-12-23T15:49:55 IST" duration-ms="906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:com.comcast.crm.contacttest.ContactModule@7dcf94f8]" started-at="2025-12-23T15:49:55 IST" name="beforeclass" finished-at="2025-12-23T15:50:25 IST" duration-ms="30022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.comcast.crm.contacttest.ContactModule@7dcf94f8]" started-at="2025-12-23T15:50:25 IST" name="beforemethod" finished-at="2025-12-23T15:50:39 IST" duration-ms="13749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="createContact()[pri:0, instance:com.comcast.crm.contacttest.ContactModule@7dcf94f8]" started-at="2025-12-23T15:50:39 IST" name="createContact" finished-at="2025-12-23T15:50:49 IST" duration-ms="10115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContact -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:com.comcast.crm.contacttest.ContactModule@7dcf94f8]" started-at="2025-12-23T15:50:49 IST" name="aftermethod" finished-at="2025-12-23T15:50:50 IST" duration-ms="984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.comcast.crm.contacttest.ContactModule@7dcf94f8]" started-at="2025-12-23T15:50:50 IST" name="beforemethod" finished-at="2025-12-23T15:50:52 IST" duration-ms="1789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="createContactWithOrgTest()[pri:0, instance:com.comcast.crm.contacttest.ContactModule@7dcf94f8]" started-at="2025-12-23T15:50:52 IST" name="createContactWithOrgTest" finished-at="2025-12-23T15:51:09 IST" duration-ms="16641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactWithOrgTest -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:com.comcast.crm.contacttest.ContactModule@7dcf94f8]" started-at="2025-12-23T15:51:09 IST" name="aftermethod" finished-at="2025-12-23T15:51:10 IST" duration-ms="1284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.comcast.crm.contacttest.ContactModule@7dcf94f8]" started-at="2025-12-23T15:51:10 IST" name="beforemethod" finished-at="2025-12-23T15:51:14 IST" duration-ms="4636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="createContactWithSupportDate()[pri:0, instance:com.comcast.crm.contacttest.ContactModule@7dcf94f8]" started-at="2025-12-23T15:51:14 IST" name="createContactWithSupportDate" finished-at="2025-12-23T15:51:22 IST" duration-ms="7338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactWithSupportDate -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:com.comcast.crm.contacttest.ContactModule@7dcf94f8]" started-at="2025-12-23T15:51:22 IST" name="aftermethod" finished-at="2025-12-23T15:51:23 IST" duration-ms="1003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:com.comcast.crm.contacttest.ContactModule@7dcf94f8]" started-at="2025-12-23T15:51:23 IST" name="afterclass" finished-at="2025-12-23T15:51:23 IST" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method is-config="true" signature="aftersuite()[pri:0, instance:com.comcast.crm.contacttest.ContactModule@7dcf94f8]" started-at="2025-12-23T15:51:23 IST" name="aftersuite" finished-at="2025-12-23T15:51:23 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- com.comcast.crm.contacttest.ContactModule -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
